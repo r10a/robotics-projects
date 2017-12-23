@@ -1,0 +1,18 @@
+// Most common paths: ${card}, ${brick} and ${usb}
+define starter '${brick}/myapps/${projectName}.rbf'
+define elfexec '${brick}/${projectName}.elf'
+
+// stolen from http://www.robotnav.com/run-programs-without-network/
+vmthread MAIN
+{
+    DATA32 Timer
+    DATA32 Status
+    SYSTEM(elfexec, Status)
+    TIMER_WAIT(1000,Timer)
+    TIMER_READY(Timer)
+}
+// Shorthand info:
+// ${projectName} 	= Current name of the project
+// ${card}   		= /media/card
+// ${usb}  			= /media/usb
+// ${brick} 		= ../prjs/BrkProg_SAVE

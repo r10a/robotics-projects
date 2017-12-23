@@ -1,0 +1,1002 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                              ./src/WallFollower.o (ButtonIsUp)
+/usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                              ./src/WallFollower.o (MotorRotationCount)
+/usr/local/EV3-API/API/libev3api.a(ev3.o)
+                              ./src/WallFollower.o (FreeEV3)
+/usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                              ./src/WallFollower.o (LcdPrintf)
+/usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+                              /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o) (SetTimerCallback)
+/usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                              ./src/WallFollower.o (readSensor)
+/usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+                              ./src/WallFollower.o (Wait)
+/usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libgcc_s.so.1                 ./src/WallFollower.o (__aeabi_d2iz@@GCC_3.5)
+libc.so.6                     /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o) (__xpg_basename@@GLIBC_2.4)
+
+Allocating common symbols
+Common symbol       size              file
+
+sensor_setup_NAME   0x10              /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+OutputInstance      0x48              /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+hwBuffer            0x1e00            /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+LCDInstance         0xb98             /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ButtonLedInstance   0x18              /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ir_sensor_channel   0x10              /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+HwVers              0x6               /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .text          0x0000000000000000        0x0 ./src/WallFollower.o
+ .data          0x0000000000000000        0x0 ./src/WallFollower.o
+ .bss           0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z8turnLeftv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z9turnRightv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z11moveForwardi
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z11getDistancev
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z15scanEnvironmenti
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z6wanderv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z17touchSensorActivev
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z8findWallv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z18followWallStraightv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z16moveAwayFromWallv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z15moveTowardsWallv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z10followWallv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text._Z4initv
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .ARM.extab.text.startup.main
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .bss.fireDistance
+                0x0000000000000000        0x4 ./src/WallFollower.o
+ .debug_info    0x0000000000000000     0x3f17 ./src/WallFollower.o
+ .debug_abbrev  0x0000000000000000      0x5d3 ./src/WallFollower.o
+ .debug_loc     0x0000000000000000      0x36b ./src/WallFollower.o
+ .debug_aranges
+                0x0000000000000000       0x88 ./src/WallFollower.o
+ .debug_ranges  0x0000000000000000       0x78 ./src/WallFollower.o
+ .debug_line    0x0000000000000000      0x5a3 ./src/WallFollower.o
+ .debug_str     0x0000000000000000     0x410c ./src/WallFollower.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/WallFollower.o
+ .debug_frame   0x0000000000000000      0x224 ./src/WallFollower.o
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .data          0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+LOAD ./src/WallFollower.o
+LOAD /usr/local/EV3-API/API/libev3api.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/libm.so
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/libc.so
+START GROUP
+LOAD /usr/arm-linux-gnueabi/lib/libc.so.6
+LOAD /usr/arm-linux-gnueabi/lib/libc_nonshared.a
+LOAD /usr/arm-linux-gnueabi/lib/ld-linux.so.3
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x10000)
+                0x0000000000010154                . = (0x10000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000010154       0x13
+ *(.interp)
+ .interp        0x0000000000010154       0x13 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.note.ABI-tag   0x0000000000010168       0x20
+ .note.ABI-tag  0x0000000000010168       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.note.gnu.build-id
+                0x0000000000010188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000010188       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000101ac      0x1b4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000101ac      0x1b4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.dynsym         0x0000000000010360      0x3b0
+ *(.dynsym)
+ .dynsym        0x0000000000010360      0x3b0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.dynstr         0x0000000000010710      0x26a
+ *(.dynstr)
+ .dynstr        0x0000000000010710      0x26a /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version    0x000000000001097a       0x76
+ *(.gnu.version)
+ .gnu.version   0x000000000001097a       0x76 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version_d  0x00000000000109f0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000109f0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version_r  0x00000000000109f0       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000109f0       0x40 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.rel.dyn        0x0000000000010a30        0x8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000010a30        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000000010a38        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000010a38        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end, .)
+
+.rela.dyn       0x0000000000010a38        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x0000000000010a38      0x198
+ *(.rel.plt)
+ .rel.plt       0x0000000000010a38      0x198 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000000000010bd0        0xc
+ *(SORT(.init))
+ .init          0x0000000000010bd0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+                0x0000000000010bd0                _init
+ .init          0x0000000000010bd8        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+.plt            0x0000000000010bdc      0x278
+ *(.plt)
+ .plt           0x0000000000010bdc      0x278 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000010bf0                __aeabi_uidiv@@GCC_3.5
+                0x0000000000010bfc                setitimer@@GLIBC_2.4
+                0x0000000000010c08                fopen@@GLIBC_2.4
+                0x0000000000010c14                read@@GLIBC_2.4
+                0x0000000000010c20                memmove@@GLIBC_2.4
+                0x0000000000010c2c                nanosleep@@GLIBC_2.4
+                0x0000000000010c38                time@@GLIBC_2.4
+                0x0000000000010c44                __aeabi_i2d@@GCC_3.5
+                0x0000000000010c50                __aeabi_idivmod@@GCC_3.5
+                0x0000000000010c5c                strdup@@GLIBC_2.4
+                0x0000000000010c68                sigaction@@GLIBC_2.4
+                0x0000000000010c74                fwrite@@GLIBC_2.4
+                0x0000000000010c80                strcat@@GLIBC_2.4
+                0x0000000000010c8c                ioctl@@GLIBC_2.4
+                0x0000000000010c98                usleep@@GLIBC_2.4
+                0x0000000000010ca4                __aeabi_d2iz@@GCC_3.5
+                0x0000000000010cb0                strcpy@@GLIBC_2.4
+                0x0000000000010cbc                gettimeofday@@GLIBC_2.4
+                0x0000000000010cc8                puts@@GLIBC_2.4
+                0x0000000000010cd4                malloc@@GLIBC_2.4
+                0x0000000000010ce0                __libc_start_main@@GLIBC_2.4
+                0x0000000000010cec                dirname@@GLIBC_2.4
+                0x0000000000010d04                open@@GLIBC_2.4
+                0x0000000000010d10                __aeabi_llsr@@GCC_3.5
+                0x0000000000010d1c                __aeabi_idiv@@GCC_3.5
+                0x0000000000010d28                strlen@@GLIBC_2.4
+                0x0000000000010d34                mmap@@GLIBC_2.4
+                0x0000000000010d40                __aeabi_ddiv@@GCC_3.5
+                0x0000000000010d4c                srand@@GLIBC_2.4
+                0x0000000000010d58                fprintf@@GLIBC_2.4
+                0x0000000000010d64                __aeabi_uidivmod@@GCC_3.5
+                0x0000000000010d70                memset@@GLIBC_2.4
+                0x0000000000010d7c                __xpg_basename@@GLIBC_2.4
+                0x0000000000010d88                __aeabi_fmul@@GCC_3.5
+                0x0000000000010d94                write@@GLIBC_2.4
+                0x0000000000010da0                __aeabi_uldivmod@@GCC_3.5
+                0x0000000000010dac                vsprintf@@GLIBC_2.4
+                0x0000000000010db8                rand@@GLIBC_2.4
+                0x0000000000010dc4                fclose@@GLIBC_2.4
+                0x0000000000010dd0                __aeabi_dmul@@GCC_3.5
+                0x0000000000010ddc                munmap@@GLIBC_2.4
+                0x0000000000010de8                strrchr@@GLIBC_2.4
+                0x0000000000010df4                fputc@@GLIBC_2.4
+                0x0000000000010e00                sscanf@@GLIBC_2.4
+                0x0000000000010e0c                vsnprintf@@GLIBC_2.4
+                0x0000000000010e18                strncat@@GLIBC_2.4
+                0x0000000000010e24                fputs@@GLIBC_2.4
+                0x0000000000010e30                abort@@GLIBC_2.4
+                0x0000000000010e3c                close@@GLIBC_2.4
+                0x0000000000010e48                __aeabi_dadd@@GCC_3.5
+
+.iplt           0x0000000000010e54        0x0
+ *(.iplt)
+ .iplt          0x0000000000010e54        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.text           0x0000000000010e54     0x625c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000000010e54       0x24 ./src/WallFollower.o
+                0x0000000000010e54                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000010e78       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000010e78                _start
+ .text          0x0000000000010eb4       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .text          0x0000000000010ed8       0xc8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .text._Z8turnLeftv
+                0x0000000000010fa0      0x164 ./src/WallFollower.o
+                0x0000000000010fa0                turnLeft()
+ .text._Z9turnRightv
+                0x0000000000011104      0x164 ./src/WallFollower.o
+                0x0000000000011104                turnRight()
+ .text._Z11moveForwardi
+                0x0000000000011268      0x188 ./src/WallFollower.o
+                0x0000000000011268                moveForward(int)
+ .text._Z11getDistancev
+                0x00000000000113f0       0x18 ./src/WallFollower.o
+                0x00000000000113f0                getDistance()
+ .text._Z15scanEnvironmenti
+                0x0000000000011408      0x2a4 ./src/WallFollower.o
+                0x0000000000011408                scanEnvironment(int)
+ .text._Z6wanderv
+                0x00000000000116ac       0x98 ./src/WallFollower.o
+                0x00000000000116ac                wander()
+ .text._Z17touchSensorActivev
+                0x0000000000011744       0x28 ./src/WallFollower.o
+                0x0000000000011744                touchSensorActive()
+ .text._Z8findWallv
+                0x000000000001176c       0x44 ./src/WallFollower.o
+                0x000000000001176c                findWall()
+ .text._Z18followWallStraightv
+                0x00000000000117b0       0xd4 ./src/WallFollower.o
+                0x00000000000117b0                followWallStraight()
+ .text._Z16moveAwayFromWallv
+                0x0000000000011884       0x6c ./src/WallFollower.o
+                0x0000000000011884                moveAwayFromWall()
+ .text._Z15moveTowardsWallv
+                0x00000000000118f0       0x6c ./src/WallFollower.o
+                0x00000000000118f0                moveTowardsWall()
+ .text._Z10followWallv
+                0x000000000001195c      0x15c ./src/WallFollower.o
+                0x000000000001195c                followWall()
+ .text._Z4initv
+                0x0000000000011ab8       0x5c ./src/WallFollower.o
+                0x0000000000011ab8                init()
+ .text          0x0000000000011b14      0x600 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                0x0000000000011b14                checkButtons
+                0x0000000000011b50                ButtonLedInitialized
+                0x0000000000011b78                MappedPattern
+                0x0000000000011bb0                LedWarning
+                0x0000000000011bcc                LedPattern
+                0x0000000000011bf0                getButtons
+                0x0000000000011c18                readButtons
+                0x0000000000011c30                ButtonIsUp
+                0x0000000000011c4c                ButtonIsDown
+                0x0000000000011c60                ButtonState
+                0x0000000000011c78                ReadButtonEx
+                0x0000000000011c98                ButtonPressedEx
+                0x0000000000011c9c                buttonClear
+                0x0000000000011cb8                ButtonLedClose
+                0x0000000000011cd4                ButtonLedOpen
+                0x0000000000011cf0                ButtonWaitForAnyPress
+                0x0000000000011d7c                ButtonWaitForPress
+                0x0000000000011d98                ButtonWaitForAnyEvent
+                0x0000000000011e30                ButtonWaitForPressAndRelease
+                0x0000000000011e54                HardwareVersionString
+                0x0000000000011e90                HardwareVersion
+                0x0000000000011ef4                WriteToButtonLedDevice
+                0x0000000000011f34                UpdateLed
+                0x0000000000011f84                SetLedPattern
+                0x0000000000011fb8                ButtonLedCloseDevices
+                0x000000000001202c                ButtonLedExit
+                0x0000000000012048                ButtonLedInit
+                0x00000000000120dc                SetLedWarning
+ .text          0x0000000000012114     0x1340 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                0x0000000000012114                OutputToMotorNum
+                0x000000000001216c                DecodeOutputs
+                0x0000000000012188                OutputInitialized
+                0x00000000000121b0                OutputRead
+                0x0000000000012264                OutputGetCount
+                0x0000000000012288                OutputGetTachoCount
+                0x00000000000122ac                OutputGetActualSpeed
+                0x00000000000122cc                MotorTachoCount
+                0x00000000000122e8                MotorBlockTachoCount
+                0x0000000000012304                MotorPower
+                0x0000000000012320                MotorActualSpeed
+                0x000000000001233c                MotorRotationCount
+                0x0000000000012358                OutputState
+                0x0000000000012404                OutputTest
+                0x00000000000124bc                MotorBusy
+                0x00000000000124d8                WriteToPWMDevice
+                0x0000000000012518                OutputClearCount
+                0x00000000000125b8                ResetRotationCount
+                0x00000000000125bc                OutputTimeSyncEx
+                0x00000000000126b0                OnForSyncEx
+                0x00000000000126dc                OutputStepSyncEx
+                0x00000000000127d0                OutputTimeSpeedEx
+                0x00000000000128a0                OutputStepSpeedEx
+                0x0000000000012970                RotateMotorNoWaitEx
+                0x0000000000012a2c                RotateMotorEx
+                0x0000000000012a70                OutputTimePowerEx
+                0x0000000000012b40                OutputStepPowerEx
+                0x0000000000012c10                OutputPolarity
+                0x0000000000012c7c                SetDirection
+                0x0000000000012c94                Rev
+                0x0000000000012c9c                Fwd
+                0x0000000000012ca4                Toggle
+                0x0000000000012cac                OutputStartEx
+                0x0000000000012d4c                OutputPower
+                0x0000000000012db8                SetPower
+                0x0000000000012dbc                OutputSpeed
+                0x0000000000012e28                SetSpeed
+                0x0000000000012e2c                OutputReset
+                0x0000000000012e90                ResetAllTachoCounts
+                0x0000000000012ea8                ResetTachoCount
+                0x0000000000012eac                ResetBlockAndTachoCount
+                0x0000000000012eb0                ResetBlockTachoCount
+                0x0000000000012eb4                ResetCount
+                0x0000000000012efc                OnFwdSyncEx
+                0x0000000000012f38                OnRevSyncEx
+                0x0000000000012f44                OutputSetTypes
+                0x0000000000012ff4                OutputSetTypesArray
+                0x000000000001300c                OutputSetType
+                0x0000000000013084                OutputProgramStop
+                0x00000000000130b8                OutputStop
+                0x0000000000013124                SetOutputEx
+                0x000000000001317c                FloatEx
+                0x0000000000013188                OffEx
+                0x0000000000013194                OnEx
+                0x00000000000131a0                OnForEx
+                0x00000000000131dc                OnRevRegEx
+                0x000000000001320c                OnFwdRegEx
+                0x000000000001323c                OnRevEx
+                0x000000000001326c                OnFwdEx
+                0x000000000001329c                ResetOutputs
+                0x00000000000132c4                OutputExit
+                0x0000000000013334                OutputClose
+                0x000000000001334c                OutputOpen
+                0x000000000001338c                OutputInit
+ .text          0x0000000000013454       0x6c /usr/local/EV3-API/API/libev3api.a(ev3.o)
+                0x0000000000013454                CloseEV3
+                0x0000000000013468                FreeEV3
+                0x0000000000013488                ExitEV3
+                0x00000000000134a0                InitEV3
+ .text          0x00000000000134c0     0x2c38 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                0x00000000000134c0                dLcdGetFontWidth
+                0x00000000000134d8                dLcdGetFontHeight
+                0x00000000000134f0                dLcdGetIconBits
+                0x0000000000013508                dLcdGetIconWidth
+                0x0000000000013520                dLcdGetIconHeight
+                0x0000000000013538                dLcdGetNumIcons
+                0x0000000000013568                frameBufferToLcd
+                0x00000000000136a0                lcdToFrameBuffer
+                0x00000000000137d8                LcdOpen
+                0x00000000000137e0                LcdClose
+                0x00000000000137e8                LcdInitialized
+                0x0000000000013810                dLcdDrawPixel
+                0x00000000000138bc                dLcdReadPixel
+                0x0000000000013924                dLcdDrawChar
+                0x0000000000013c58                dLcdDrawText
+                0x0000000000013cd8                dLcdDrawPicture
+                0x0000000000013d98                dLcdDrawIcon
+                0x0000000000013e3c                dLcdGetBitmapSize
+                0x0000000000013e60                dLcdDrawBitmap
+                0x00000000000140dc                LcdSetAutoRefresh
+                0x00000000000140ec                LcdSelectFont
+                0x0000000000014124                LcdGetDisplay
+                0x0000000000014140                reverse_bits
+                0x0000000000014150                LcdText
+                0x00000000000141a8                LcdIcon
+                0x00000000000141fc                LcdPicture
+                0x000000000001424c                DisplayLineHeight
+                0x0000000000014270                DisplaySetPixel
+                0x00000000000142c4                DisplayClrPixel
+                0x0000000000014318                DisplayXorPixel
+                0x000000000001436c                DisplayFillScreen
+                0x00000000000144c8                DisplayLineX
+                0x000000000001459c                DisplayLineY
+                0x0000000000014650                DisplayFrame
+                0x00000000000146d8                CmdResolveDrawingMode
+                0x0000000000014754                TextOutEx
+                0x0000000000014768                NumOutEx
+                0x000000000001477c                PolyOutEx
+                0x0000000000014784                GraphicOutEx
+                0x000000000001478c                GraphicArrayOutEx
+                0x0000000000014794                vasprintf
+                0x00000000000147ec                LcdPrintf
+                0x00000000000149b4                LcdTextf
+                0x0000000000014a00                asprintf
+                0x0000000000014a28                DisplayErase
+                0x0000000000014a50                DisplayEraseLine
+                0x0000000000014a9c                DisplayDraw
+                0x0000000000014ba0                CmdDrawLine
+                0x0000000000014e90                LineOutEx
+                0x0000000000014f00                CmdDrawRect
+                0x0000000000015060                RectOutEx
+                0x00000000000150d4                CmdSetPixel
+                0x0000000000015124                PointOutEx
+                0x0000000000015178                CmdDrawEllipse
+                0x00000000000156e0                EllipseOutEx
+                0x000000000001575c                CmdDrawCircle
+                0x0000000000015790                CircleOutEx
+                0x00000000000157fc                LcdFillWindow
+                0x0000000000015908                LcdClean
+                0x0000000000015948                LcdClearDisplay
+                0x0000000000015964                LcdBmpFile
+                0x00000000000159f8                _lcdWriteBytesToFile
+                0x0000000000015d40                LcdWriteDisplayToFile
+                0x0000000000015d7c                LcdGetFrameBuffer
+                0x0000000000015dbc                LcdWriteFrameBufferToFile
+                0x0000000000015df8                LcdScroll
+                0x0000000000015ec4                doUpdateScreen
+                0x0000000000015f1c                LcdUpdate
+                0x0000000000015f48                LcdRefresh
+                0x0000000000015f60                LcdUpdateHandler
+                0x0000000000015f78                LcdCloseDevices
+                0x0000000000015fcc                LcdExit
+                0x0000000000015ffc                LcdInit
+                0x00000000000160b8                WriteToLcdDevice
+ .text          0x00000000000160f8      0x698 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+                0x00000000000160f8                _timerSigHandler
+                0x0000000000016290                SetTimerCallback
+                0x0000000000016364                TimerGetMS
+                0x00000000000163a0                TimerGetCS
+                0x00000000000163bc                SetTimer
+                0x00000000000163fc                ClearTimer
+                0x0000000000016428                FastTimer
+                0x0000000000016458                Timer
+                0x000000000001646c                SetTimerMS
+                0x00000000000164ac                ClearTimerMS
+                0x00000000000164d8                TimerMS
+                0x0000000000016508                TimerWait
+                0x000000000001651c                TimerGetUS
+                0x000000000001654c                SetTimerUS
+                0x000000000001658c                ClearTimerUS
+                0x00000000000165b8                TimerUS
+                0x00000000000165e8                _timerCallbackInit
+                0x00000000000166d8                TimerInit
+                0x0000000000016760                TimerReady
+ .text          0x0000000000016790      0x874 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                0x0000000000016790                readUartSensor
+                0x00000000000167d0                readIicSensor
+                0x0000000000016810                readNewDumbSensor
+                0x0000000000016828                readOldDumbSensor
+                0x000000000001683c                readNxtColor
+                0x0000000000016844                readSensorData
+                0x0000000000016920                readSensor
+                0x0000000000016ba8                setSensorMode
+                0x0000000000016cb0                setIRBeaconCH
+                0x0000000000016cc4                setAllSensorMode
+                0x0000000000016ed4                initSensors
+ .text          0x0000000000017004       0x48 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+                0x0000000000017004                Wait
+ .text          0x000000000001704c       0x64 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+                0x000000000001704c                __libc_csu_init
+                0x00000000000170ac                __libc_csu_fini
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000000170b0        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000000170b0        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000000170b0        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000000170b0        0x0 linker stubs
+
+.fini           0x00000000000170b0        0x8
+ *(SORT(.fini))
+ .fini          0x00000000000170b0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+                0x00000000000170b0                _fini
+ .fini          0x00000000000170b4        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x00000000000170b8      0x220
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000170b8        0x7 ./src/WallFollower.o
+ .rodata.str1.1
+                0x00000000000170bf        0xf /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                                         0x10 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000170ce       0x22 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .rodata        0x00000000000170f0      0x100 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .rodata.str1.1
+                0x00000000000171f0       0xbd /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .rodata.str1.1
+                0x00000000000172ad       0x2b /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00000000000172d8       0xd8
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00000000000172d8       0x90 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .ARM.extab     0x0000000000017368       0x48 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x00000000000173b0      0x4a8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00000000000173b8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.exidx.text._Z8turnLeftv
+                0x00000000000173c0        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z9turnRightv
+                0x00000000000173c8        0x0 ./src/WallFollower.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z11moveForwardi
+                0x00000000000173c8        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z11getDistancev
+                0x00000000000173d0        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z15scanEnvironmenti
+                0x00000000000173d8        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z6wanderv
+                0x00000000000173e0        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z17touchSensorActivev
+                0x00000000000173e8        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z8findWallv
+                0x00000000000173f0        0x0 ./src/WallFollower.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z18followWallStraightv
+                0x00000000000173f0        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z16moveAwayFromWallv
+                0x00000000000173f8        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z15moveTowardsWallv
+                0x0000000000017400        0x0 ./src/WallFollower.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z10followWallv
+                0x0000000000017400        0x8 ./src/WallFollower.o
+ .ARM.exidx.text._Z4initv
+                0x0000000000017408        0x8 ./src/WallFollower.o
+ .ARM.exidx.text.startup.main
+                0x00000000000173b0        0x8 ./src/WallFollower.o
+ .ARM.exidx     0x0000000000017410       0x70 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                                         0xe0 (size before relaxing)
+ .ARM.exidx     0x0000000000017480      0x170 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                                        0x200 (size before relaxing)
+ .ARM.exidx     0x00000000000175f0        0x8 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+                                         0x20 (size before relaxing)
+ .ARM.exidx     0x00000000000175f8      0x1b8 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                                        0x250 (size before relaxing)
+ .ARM.exidx     0x00000000000177b0       0x70 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+                                         0x98 (size before relaxing)
+ .ARM.exidx     0x0000000000017820       0x28 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                                         0x58 (size before relaxing)
+ .ARM.exidx     0x0000000000017848       0x10 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+                                          0x8 (size before relaxing)
+                [!provide]                        PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000017858        0x4
+ *(.eh_frame)
+ .eh_frame      0x0000000000017858        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000027f04                . = DATA_SEGMENT_ALIGN (0x10000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000027f04        0x0
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000027f04        0x4
+                0x0000000000027f04                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000027f04        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+                0x0000000000027f08                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000027f08        0x4
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000027f08        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000027f0c        0x4
+ *(.jcr)
+ .jcr           0x0000000000027f0c        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .jcr           0x0000000000027f0c        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000027f10       0xf0
+ *(.dynamic)
+ .dynamic       0x0000000000027f10       0xf0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000027f10                _DYNAMIC
+                0x0000000000028000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x0000000000028000       0xdc
+ *(.got.plt)
+ .got.plt       0x0000000000028000       0xd8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000028000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x00000000000280d8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.got)
+ .got           0x00000000000280d8        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.igot)
+
+.data           0x00000000000280dc     0x2530
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000280dc     0x2530 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                0x00000000000280dc                FontInfo
+                0x000000000002810c                IconInfo
+                0x0000000000028148                UnPixelTab
+                0x0000000000028248                PixelTab
+                0x0000000000028250                Masks
+
+.tm_clone_table
+                0x000000000002a60c        0x0
+ .tm_clone_table
+                0x000000000002a60c        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .tm_clone_table
+                0x000000000002a60c        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+
+.data1
+ *(.data1)
+                0x000000000002a60c                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x000000000002a60c                . = .
+                0x000000000002a60c                __bss_start = .
+                0x000000000002a60c                __bss_start__ = .
+
+.bss            0x000000000002a610     0x2b60
+ *(.dynbss)
+ .dynbss        0x000000000002a610        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000002a610        0x1 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ *fill*         0x000000000002a611        0x3 
+ .bss.choice    0x000000000002a614        0x4 ./src/WallFollower.o
+                0x000000000002a614                choice
+ .bss.wander_counter
+                0x000000000002a618        0x4 ./src/WallFollower.o
+                0x000000000002a618                wander_counter
+ .bss.currDistance
+                0x000000000002a61c        0x4 ./src/WallFollower.o
+                0x000000000002a61c                currDistance
+ .bss.deviation
+                0x000000000002a620        0x4 ./src/WallFollower.o
+                0x000000000002a620                deviation
+ .bss.speed_offset_d
+                0x000000000002a624        0x4 ./src/WallFollower.o
+                0x000000000002a624                speed_offset_d
+ .bss.lastDistance
+                0x000000000002a628        0x4 ./src/WallFollower.o
+                0x000000000002a628                lastDistance
+ .bss.currAction
+                0x000000000002a62c        0x4 ./src/WallFollower.o
+                0x000000000002a62c                currAction
+ .bss.room_intensity
+                0x000000000002a630        0x4 ./src/WallFollower.o
+                0x000000000002a630                room_intensity
+ .bss.speed_offset_b
+                0x000000000002a634        0x4 ./src/WallFollower.o
+                0x000000000002a634                speed_offset_b
+ .bss           0x000000000002a638        0x6 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ *fill*         0x000000000002a63e        0x2 
+ .bss           0x000000000002a640       0xe0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .bss           0x000000000002a720       0x30 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                0x000000000002a720                g_uartSensors
+                0x000000000002a724                g_iicSensors
+                0x000000000002a728                g_analogSensors
+                0x000000000002a744                g_uartFile
+                0x000000000002a748                g_iicFile
+                0x000000000002a74c                g_analogFile
+ *(COMMON)
+ COMMON         0x000000000002a750       0x1e /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                0x000000000002a750                ButtonLedInstance
+                0x000000000002a768                HwVers
+ *fill*         0x000000000002a76e        0x2 
+ COMMON         0x000000000002a770       0x48 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                0x000000000002a770                OutputInstance
+ COMMON         0x000000000002a7b8     0x2998 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                0x000000000002a7b8                hwBuffer
+                0x000000000002c5b8                LCDInstance
+ COMMON         0x000000000002d150       0x20 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                0x000000000002d150                sensor_setup_NAME
+                0x000000000002d160                ir_sensor_channel
+                0x000000000002d170                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000002d170                _bss_end__ = .
+                0x000000000002d170                __bss_end__ = .
+                0x000000000002d170                . = ALIGN (0x4)
+                0x000000000002d170                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000002d170                . = ALIGN (0x4)
+                0x000000000002d170                __end__ = .
+                0x000000000002d170                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x000000000002d170                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x168
+ *(.comment)
+ .comment       0x0000000000000000       0x3b /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+                                         0x3c (size before relaxing)
+ .comment       0x000000000000003b       0x3c ./src/WallFollower.o
+ .comment       0x000000000000003b       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .comment       0x0000000000000066       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .comment       0x0000000000000091       0x2b /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .comment       0x00000000000000bc       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .comment       0x00000000000000e7       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .comment       0x0000000000000112       0x2b /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .comment       0x000000000000013d       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .comment       0x0000000000000168       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+
+.ARM.attributes
+                0x0000000000000000       0x2a
+ .ARM.attributes
+                0x0000000000000000       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.attributes
+                0x000000000000002a       0x1e /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .ARM.attributes
+                0x0000000000000048       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .ARM.attributes
+                0x0000000000000072       0x2c ./src/WallFollower.o
+ .ARM.attributes
+                0x000000000000009e       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .ARM.attributes
+                0x00000000000000cf       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .ARM.attributes
+                0x0000000000000100       0x31 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .ARM.attributes
+                0x0000000000000131       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .ARM.attributes
+                0x0000000000000162       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .ARM.attributes
+                0x0000000000000193       0x31 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .ARM.attributes
+                0x00000000000001c4       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .ARM.attributes
+                0x00000000000001f5       0x2c /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x0000000000000221       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .ARM.attributes
+                0x000000000000024b       0x1e /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(WallFollower.elf elf32-littlearm)
